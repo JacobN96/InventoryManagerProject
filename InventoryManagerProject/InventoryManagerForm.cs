@@ -95,6 +95,12 @@ namespace InventoryManagerProject
             refreshItems();
         }
 
+        //button to close the program
+        private void closeButton_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
+
         //populate textboxes with current cell selection in itemsDataGridView
         private void itemsDataGridView_CellEnter(object sender, DataGridViewCellEventArgs e)
         {
@@ -134,11 +140,7 @@ namespace InventoryManagerProject
         }
 
 
-        //button to close the program
-        private void closeButton_Click(object sender, EventArgs e)
-        {
-            Close();
-        }
+        
 
         //Export inventory report
         private void exportItemListButton_Click(object sender, EventArgs e)
