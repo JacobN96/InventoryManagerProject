@@ -41,12 +41,13 @@
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.addItemButton = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // newReorderTextBox
             // 
             this.newReorderTextBox.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Bold);
-            this.newReorderTextBox.Location = new System.Drawing.Point(322, 313);
+            this.newReorderTextBox.Location = new System.Drawing.Point(127, 323);
             this.newReorderTextBox.Name = "newReorderTextBox";
             this.newReorderTextBox.Size = new System.Drawing.Size(275, 29);
             this.newReorderTextBox.TabIndex = 35;
@@ -54,7 +55,7 @@
             // newStockTextBox
             // 
             this.newStockTextBox.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Bold);
-            this.newStockTextBox.Location = new System.Drawing.Point(322, 261);
+            this.newStockTextBox.Location = new System.Drawing.Point(127, 271);
             this.newStockTextBox.Name = "newStockTextBox";
             this.newStockTextBox.Size = new System.Drawing.Size(275, 29);
             this.newStockTextBox.TabIndex = 34;
@@ -62,7 +63,7 @@
             // newPriceTextBox
             // 
             this.newPriceTextBox.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Bold);
-            this.newPriceTextBox.Location = new System.Drawing.Point(322, 212);
+            this.newPriceTextBox.Location = new System.Drawing.Point(127, 222);
             this.newPriceTextBox.Name = "newPriceTextBox";
             this.newPriceTextBox.Size = new System.Drawing.Size(275, 29);
             this.newPriceTextBox.TabIndex = 33;
@@ -70,7 +71,7 @@
             // newCategoryTextBox
             // 
             this.newCategoryTextBox.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Bold);
-            this.newCategoryTextBox.Location = new System.Drawing.Point(322, 163);
+            this.newCategoryTextBox.Location = new System.Drawing.Point(127, 173);
             this.newCategoryTextBox.Name = "newCategoryTextBox";
             this.newCategoryTextBox.Size = new System.Drawing.Size(275, 29);
             this.newCategoryTextBox.TabIndex = 32;
@@ -78,7 +79,7 @@
             // newDescriptionTextBox
             // 
             this.newDescriptionTextBox.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Bold);
-            this.newDescriptionTextBox.Location = new System.Drawing.Point(322, 112);
+            this.newDescriptionTextBox.Location = new System.Drawing.Point(127, 122);
             this.newDescriptionTextBox.Name = "newDescriptionTextBox";
             this.newDescriptionTextBox.Size = new System.Drawing.Size(275, 29);
             this.newDescriptionTextBox.TabIndex = 31;
@@ -86,7 +87,7 @@
             // newSKUTextBox
             // 
             this.newSKUTextBox.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Bold);
-            this.newSKUTextBox.Location = new System.Drawing.Point(322, 61);
+            this.newSKUTextBox.Location = new System.Drawing.Point(127, 71);
             this.newSKUTextBox.Name = "newSKUTextBox";
             this.newSKUTextBox.Size = new System.Drawing.Size(275, 29);
             this.newSKUTextBox.TabIndex = 30;
@@ -95,7 +96,7 @@
             // 
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Bold);
-            this.label8.Location = new System.Drawing.Point(204, 316);
+            this.label8.Location = new System.Drawing.Point(9, 326);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(75, 22);
             this.label8.TabIndex = 29;
@@ -105,7 +106,7 @@
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Bold);
-            this.label7.Location = new System.Drawing.Point(204, 264);
+            this.label7.Location = new System.Drawing.Point(9, 274);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(56, 22);
             this.label7.TabIndex = 28;
@@ -115,7 +116,7 @@
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Bold);
-            this.label6.Location = new System.Drawing.Point(204, 215);
+            this.label6.Location = new System.Drawing.Point(9, 225);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(50, 22);
             this.label6.TabIndex = 27;
@@ -125,7 +126,7 @@
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Bold);
-            this.label5.Location = new System.Drawing.Point(204, 166);
+            this.label5.Location = new System.Drawing.Point(9, 176);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(84, 22);
             this.label5.TabIndex = 26;
@@ -135,7 +136,7 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Bold);
-            this.label4.Location = new System.Drawing.Point(204, 115);
+            this.label4.Location = new System.Drawing.Point(9, 125);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(104, 22);
             this.label4.TabIndex = 25;
@@ -145,7 +146,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Bold);
-            this.label3.Location = new System.Drawing.Point(204, 61);
+            this.label3.Location = new System.Drawing.Point(9, 71);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(43, 22);
             this.label3.TabIndex = 24;
@@ -153,20 +154,34 @@
             // 
             // addItemButton
             // 
+            this.addItemButton.BackColor = System.Drawing.Color.DarkSeaGreen;
             this.addItemButton.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Bold);
-            this.addItemButton.Location = new System.Drawing.Point(393, 376);
+            this.addItemButton.Location = new System.Drawing.Point(177, 385);
             this.addItemButton.Name = "addItemButton";
-            this.addItemButton.Size = new System.Drawing.Size(104, 31);
+            this.addItemButton.Size = new System.Drawing.Size(169, 31);
             this.addItemButton.TabIndex = 36;
             this.addItemButton.Text = "Add Item";
-            this.addItemButton.UseVisualStyleBackColor = true;
+            this.addItemButton.UseVisualStyleBackColor = false;
             this.addItemButton.Click += new System.EventHandler(this.addItemButton_Click);
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Bold);
+            this.label1.Location = new System.Drawing.Point(123, 19);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(233, 22);
+            this.label1.TabIndex = 37;
+            this.label1.Text = "Add New Item to Inventory";
             // 
             // NewItemForm
             // 
+            this.AcceptButton = this.addItemButton;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.BackColor = System.Drawing.Color.LightSteelBlue;
+            this.ClientSize = new System.Drawing.Size(510, 450);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.addItemButton);
             this.Controls.Add(this.newReorderTextBox);
             this.Controls.Add(this.newStockTextBox);
@@ -182,7 +197,7 @@
             this.Controls.Add(this.label3);
             this.Name = "NewItemForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
-            this.Text = "NewItemForm";
+            this.Text = "Inventory Manager";
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -203,5 +218,6 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Button addItemButton;
+        private System.Windows.Forms.Label label1;
     }
 }

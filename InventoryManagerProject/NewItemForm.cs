@@ -44,5 +44,7 @@ namespace InventoryManagerProject
             //close the new item form
             Close();
         }
+
+        
     }
 }
