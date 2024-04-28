@@ -95,11 +95,7 @@ namespace InventoryManagerProject
             refreshItems();
         }
 
-        //button to close the program
-        private void closeButton_Click(object sender, EventArgs e)
-        {
-            Close();
-        }
+        
 
         //populate textboxes with current cell selection in itemsDataGridView
         private void itemsDataGridView_CellEnter(object sender, DataGridViewCellEventArgs e)
@@ -138,6 +134,32 @@ namespace InventoryManagerProject
 
 
         }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        //FEATURE 1 RELEASE   **************************************************************************************************************************************************************************************************************************************
+
+
+
+        //button to close the program
+        private void closeButton_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
+
+
 
 
 
@@ -193,7 +215,7 @@ namespace InventoryManagerProject
                 MessageBox.Show(ex.Message, "Message", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
-        //**************************************************************************************************************************************************************************************************************************************1111111111111111111112222222222222222222
+
 
 
         //Export low stock report 
