@@ -140,7 +140,6 @@ namespace InventoryManagerProject
         }
 
 
-        
 
         //Export inventory report
         private void exportItemListButton_Click(object sender, EventArgs e)
@@ -194,7 +193,7 @@ namespace InventoryManagerProject
                 MessageBox.Show(ex.Message, "Message", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
-        
+        //**************************************************************************************************************************************************************************************************************************************
 
 
         //Export low stock report 
