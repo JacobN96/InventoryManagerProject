@@ -16,7 +16,8 @@ namespace InventoryManagerProject
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new InventoryManagerForm());
+            //Application.Run(new InventoryManagerForm());
+            Application.Run(new LoginForm());
         }
     }
 }

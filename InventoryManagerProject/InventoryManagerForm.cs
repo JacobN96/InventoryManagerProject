@@ -85,23 +85,28 @@ namespace InventoryManagerProject
         //delete an existing item
         private void deleteButton_Click(object sender, EventArgs e)
         {
-            SqlConnection con = new SqlConnection(connectionString);
-            con.Open();
-            SqlCommand cmd = new SqlCommand("Delete items where SKU=@SKU", con);
-            cmd.Parameters.AddWithValue("@SKU", int.Parse(skuTextBox.Text));
-            cmd.ExecuteNonQuery();
-            con.Close();
-            MessageBox.Show("Item deleted");
-            refreshItems();
+            if (MessageBox.Show("Are you sure you want to delete?", "Deletion Confirmation", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes) 
+            {
+                SqlConnection con = new SqlConnection(connectionString);
+                con.Open();
+                SqlCommand cmd = new SqlCommand("Delete items where SKU=@SKU", con);
+                cmd.Parameters.AddWithValue("@SKU", int.Parse(skuTextBox.Text));
+                cmd.ExecuteNonQuery();
+                con.Close();
+                MessageBox.Show("Item deleted");
+                refreshItems();
+
+            }
+            
         }
 
-        //button to close the program
+        //button redundancy to close the program
         private void closeButton_Click(object sender, EventArgs e)
         {
-            Close();
+            System.Windows.Forms.Application.Exit();
         }
 
-        //populate textboxes with current cell selection in itemsDataGridView
+        //populate textboxes with current row selection from itemsDataGridView
         private void itemsDataGridView_CellEnter(object sender, DataGridViewCellEventArgs e)
         {
             skuTextBox.Text = itemsDataGridView.CurrentRow.Cells[0].Value.ToString();
@@ -194,8 +199,6 @@ namespace InventoryManagerProject
                 MessageBox.Show(ex.Message, "Message", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
-        
-
 
         //Export low stock report 
         private void exportLowStockButton_Click(object sender, EventArgs e)
